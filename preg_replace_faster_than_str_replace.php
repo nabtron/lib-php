@@ -1,5 +1,6 @@
 <?php
 //weirdly, I found preg_replace to be faster in this example code:
+// (however, preg_replace wasn't able to handle a larger string, while str_replace handled much larger one (10+ times larger)
 
 $start = microtime(true); 
 
