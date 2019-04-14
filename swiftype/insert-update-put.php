@@ -2,6 +2,8 @@
 
 /*
 
+solves the issue of curl working in terminal but not in php (for put)
+
 for put (update) method, if we use put in curl, or any other thing, it results in error on swiftype api: 
 {"error":"Routing Error. The path you have requested is invalid."}
 
