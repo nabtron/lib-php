@@ -3,6 +3,7 @@
 /*
 
 solves the issue of curl working in terminal but not in php (for put)
+get the output of terminal curl by using -v in first line and then see method to be put for example
 
 for put (update) method, if we use put in curl, or any other thing, it results in error on swiftype api: 
 {"error":"Routing Error. The path you have requested is invalid."}
