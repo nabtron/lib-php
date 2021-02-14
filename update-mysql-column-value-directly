@@ -1,0 +1,11 @@
+// to increment or decrement the values in mysql database, in a single query
+
+// to increment:
+UPDATE  table
+SET     field = field + 1
+WHERE   id = $number
+
+//to decrement:
+UPDATE  table
+SET     field = GREATEST(0, field - 1)
+WHERE   id = $number
