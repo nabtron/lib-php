@@ -1,3 +1,4 @@
+// ref: https://stackoverflow.com/questions/16277339/decrement-value-in-mysql-but-not-negative
 // to increment or decrement the values in mysql database, in a single query
 
 // to increment:
